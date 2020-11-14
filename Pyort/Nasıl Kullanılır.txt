@@ -1,0 +1,64 @@
+1- Videolu anlatým için buradaki linke týklayýn:
+ 
+    https://www.youtube.com/watch?v=MPhw9b7L5G4&t=462s
+
+   Youtube’de videoyu bulmak için ise Gökdeniz K kanalýný aratýp
+   Veri analizi ürünNO:002 isimli videoyu izleyebilirsiniz 
+
+2- Öncelikle ‘1’ isimli excel dosyasýný doldurmanýz gerekmekte
+bunun için örnek dosyadan faydalanabilirsiniz.
+
+NASIL DOLDURULUR: öncelikle Ders adý yazan kýsma dilediðiniz dersi yazýn ardýndan 
+diðer derslere geçmeden önce alttaki kýsýmdan notlarýný gireceðiniz seneleri kronolojik sýrayla yazýn.
+
+Ardýndan senenin altýna o seneki tüm verileri girin.
+
+!!! Bütün verileri doldurmayý bitirdiðiniz zaman Örnek dosyadaki gibi sona bir ‘x’ iþareti ekleyin!!!
+
+NOT: Hücreler arasýnda boþluk býrakmanýz bir sakýnca oluþturmuyor istediðiniz kadar boþ hücre býrakabilirsiniz ayrýca bir not daha girdiðiniz deðer 0 (sýfýr) ise ortalamaya katýlmayacaktýr eðer bu sizin için bir sorun ise aþaðýdaki sýfýr kuralý isimli baþlýða geçin.
+3- 
+
+4- Dosyayý Doldurduktan sonra ‘1’ numaralý kodu çalýþtýrýn.
+
+Uyarý: Kodu çalýþtýrmadan excel dosyasýný kapattýðýnýzdan emin olun aksi takdirde excel dosyasýný kapatýp kodu tekrar çalýþtýrabilirsiniz
+
+ Kodu deðiþtirmeyin bu eylem kodu bozabilir
+
+5- Kodu çalýþtýrmak için iki kere týklayýn
+eðer açýlmazsa sað týk yapýn Editwith IDE seçeneðine gelin ve açýlan sekmede çýkan ilk seçeneðe týklayýn.
+Eðer birden çok seçenek varsa doðru olaný bulana kadar hepsini deneyin
+
+6- Ardýndan Kýrmýzý iþaretli notlarý okuduktan sonra üstteki ‘Run’ kýsmýndan ‘Run Module’ seçeneðini seçin
+
+
+7- Ýþleminizin tamamlandýðý ekranda yazana kadar açýlan sekmeyi kapatmayýn
+ardýndan ‘Çýktý’ isimli excel dosyasýný açýn ve alt kýsýmdan 2. Sayfaya gelin
+2. Sayfada grafiklerinizi bulacaksýnýz
+
+8- ‘Çýktý’ dosyasý ile dilediðiniz gibi deðiþiklik yapabilirsiniz
+kodu tekrar çalýþtýrmak istediðiniz zaman ‘Çýktý’ dosyasýnýn açýk olmadýðýna emin olun 
+
+
+
+Sýfýr Kuralý: eðer iþleminizde sýfýrlarýn hesaba katýlmasýný istiyorsanýz burayý okuyun
+  	       Kodu Açtýðýnýz zaman en alt kýsýmda ‘SýfýrKuralý = True’ yazýsýný göreceksiniz
+             	       oraya False yazarsanýz ( ilk harfi büyük!) sýfýr deðerleri de iþleme alýnacak.
+	       Ayný þekilde iþleminizi geri almak için True yazabilirsiniz.
+
+
+Neden Böyle bir kural var: üniversite sýnavý verilerini girdiyseniz AYT sýnavýnda özellikle tm ve t bölümlerinde MF öðrencilerinin girmemesinden dolayý birçok 0 deðeri olabilir burada ortalamanýn bozulmasýný engellemek amacýyla böyle bir kural var.
+
+Y_GrafiðiBaþlýðý = “Net” 
+Buradaki týrnak iþareti içerisine dilediðiniz cümleyi yazabilirsiniz, burada yazýlý olan içerik grafiðin sol tarafýndaki deðerlerin baþlýðýný deðiþtirecek
+
+Ayný þekilde X_GrafiðiBaþlýðý = “Yýl” týrnak içerisindeki ifadeyi deðiþtirirseniz grafiðin alt kýsmýndaki verilerin baþlýðý deðiþecek
+mesela siz yýl deðil de sýnýf verileri incelemek istiyorsanýz buraya yýl yerine sýnýf adýný yazabilirsiniz (ÖR: X_GrafiðiBaþlýðý = “11/D”)
+
+BarGrafiði = True yaparsanýz grafikleriniz çizgi olmak yerine bar grafiði þeklinde olurlar 
+ayný þekilde BarGrafiði = False yaparsanýz yeniden çizgi grafiði olurlar 
+
+Ýletiþim:
+
+Gökdeniz Kaymak
+BotE Software
+gokdenizk.be@gmail.com
